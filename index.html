@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,11 +6,11 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://ontologies.atb-bremen.de/smashHitCore","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://ontologies.atb-bremen.de/smashHitCore","name":"smashHit Core Ontology", "headline":"The adoption of GDPR has resulted in a significant shift in how the data of European Union citizens is handled. A variety of data sharing challenges in scenarios such as smart cities have arised, especially, when attempting to semantically represent GDPR legal basis, such as consent, contracts and the data types and specific data sources related to them. Many ontologies that model GDPR exist, however, they focus mainly on consent. In order to represent other GDPR basis such as contracts, multiple ontologies need to be reused. The process is time-consuming and requires expert knowledge of semantics. To solve this challenge, we present the smashHit Core ontology, which provides an unified and coherent model for both consent and contracts, as well as the sensor data and data processing associated with them, in one place. The ontology was developed in response to real-world data sharing use cases in the insurance and smart cities domains.", "datePublished":"Mon Dec 05 04:03:53 CET 2022", "version":"2022/11/29", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Albert Zilverberg (ATB Bremen)"},{"@type":"Person","name":"Amar Tauqeer (University of Innsbruck)"},{"@type":"Person","name":"Ana Correia (ATB Bremen)"},{"@type":"Person","name":"Anelia Kurteva (University of Innsbruck)"},{"@type":"Person","name":"Anna Fensel (University of Innsbruck)"},{"@type":"Person","name":"Elena Demidova (University of Bonn)"},{"@type":"Person","name":"Kevin Nagorny (ATB Bremen)"},{"@type":"Person","name":"Rainer Hilscher (University of Innsbruck)"},{"@type":"Person","name":"Stefan Schestakov (Leibniz University Hannover)"},{"@type":"Person","name":"Tek Raj Chhetri (University of Innsbruck)"},{"@type":"Person","name":"Thorben Funke (Leibniz University Hannover)"}], "contributor":[{"@type":"Person","name":"smashHit project consortium partners (This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No. 871477)"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://ontologies.atb-bremen.de/smashHitCore","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://ontologies.atb-bremen.de/smashHitCore","name":"smashHit Core Ontology", "headline":"The adoption of GDPR has resulted in a significant shift in how the data of European Union citizens is handled. A variety of data sharing challenges in scenarios such as smart cities have arised, especially, when attempting to semantically represent GDPR legal basis, such as consent, contracts and the data types and specific data sources related to them. Many ontologies that model GDPR exist, however, they focus mainly on consent. In order to represent other GDPR basis such as contracts, multiple ontologies need to be reused. The process is time-consuming and requires expert knowledge of semantics. To solve this challenge, we present the smashHit Core ontology, which provides an unified and coherent model for both consent and contracts, as well as the sensor data and data processing associated with them, in one place. The ontology was developed in response to real-world data sharing use cases in the insurance and smart cities domains.", "datePublished":"Mon Dec 26 02:34:24 CET 2022", "version":"2022/12/26", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Albert Zilverberg (ATB Bremen)"},{"@type":"Person","name":"Amar Tauqeer (University of Innsbruck)"},{"@type":"Person","name":"Ana Correia (ATB Bremen)"},{"@type":"Person","name":"Anelia Kurteva (University of Innsbruck)"},{"@type":"Person","name":"Anna Fensel (University of Innsbruck)"},{"@type":"Person","name":"Elena Demidova (University of Bonn)"},{"@type":"Person","name":"Kevin Nagorny (ATB Bremen)"},{"@type":"Person","name":"Rainer Hilscher (University of Innsbruck)"},{"@type":"Person","name":"Stefan Schestakov (Leibniz University Hannover)"},{"@type":"Person","name":"Tek Raj Chhetri (University of Innsbruck)"},{"@type":"Person","name":"Thorben Funke (Leibniz University Hannover)"}], "contributor":[{"@type":"Person","name":"smashHit project consortium partners (This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No. 871477)"}]}</script>
 
-<script src="resources/jquery.js"></script> 
-<script src="resources/marked.min.js"></script> 
-    <script> 
+<script src="resources/jquery.js"></script>
+<script src="resources/marked.min.js"></script>
+    <script>
 function loadHash() {
   jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
 	var hash = location.hash;
@@ -41,15 +40,15 @@ function loadTOC(){
 		}
 	  });
 	  t+='</ul>';
-	  $("#toc").html(t); 
+	  $("#toc").html(t);
 }
 $(function(){
     loadHash();
 }); $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
- }; 
-   </script> 
-  </head> 
+ };
+   </script>
+  </head>
 
 <body>
 <div class="container">
@@ -64,15 +63,12 @@ $(function(){
 <dt>Latest version:</dt>
 <dd><a href="http://ontologies.atb-bremen.de/smashHitCore">http://ontologies.atb-bremen.de/smashHitCore</a></dd>
 <dt>Revision:</dt>
-<dd>2022/11/29</dd>
+<dd>2022/12/26</dd>
 <dt>Authors:</dt>
 <dd>Albert Zilverberg (ATB Bremen)</dd><dd>Amar Tauqeer (University of Innsbruck)</dd><dd>Ana Correia (ATB Bremen)</dd><dd>Anelia Kurteva (University of Innsbruck)</dd><dd>Anna Fensel (University of Innsbruck)</dd><dd>Elena Demidova (University of Bonn)</dd><dd>Kevin Nagorny (ATB Bremen)</dd><dd>Rainer Hilscher (University of Innsbruck)</dd><dd>Stefan Schestakov (Leibniz University Hannover)</dd><dd>Tek Raj Chhetri (University of Innsbruck)</dd><dd>Thorben Funke (Leibniz University Hannover)</dd>
 
 <dt>Contributors:</dt>
 <dd>smashHit project consortium partners (This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No. 871477)</dd>
-
-<dt>Imported Ontologies:</dt>
-<dd><a href="http://www.w3.org/2000/01/rdf-schema#">rdf-schema#</a></dd>
 
 <dt>License: </dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
 </dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
@@ -88,70 +84,14 @@ $(function(){
 </div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
 The adoption of GDPR has resulted in a significant shift in how the data of European Union citizens is handled. A variety of data sharing challenges in scenarios such as smart cities have arised, especially, when attempting to semantically represent GDPR legal basis, such as consent, contracts and the data types and specific data sources related to them. Many ontologies that model GDPR exist, however, they focus mainly on consent. In order to represent other GDPR basis such as contracts, multiple ontologies need to be reused. The process is time-consuming and requires expert knowledge of semantics. To solve this challenge, we present the smashHit Core ontology, which provides an unified and coherent model for both consent and contracts, as well as the sensor data and data processing associated with them, in one place. The ontology was developed in response to real-world data sharing use cases in the insurance and smart cities domains.</span>
 </div>
-<div id="toc"></div> 
-
-<!--INTRODUCTION SECTION-->
-    <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
-<div id="namespacedeclarations">
-<h3 id="ns" class="list">Namespace declarations</h3>
-<div id="ns" align="center">
-<table>
-<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
-<tbody>
-<tr><td><b>[Ontology NS Prefix]</b></td><td>&lt;http://ontologies.atb-bremen.de/smashHitCore&gt;</td></tr>
-<tr><td><b>schema</b></td><td>&lt;https://schema.org&gt;</td></tr>
-<tr><td><b>grddl</b></td><td>&lt;http://www.w3.org/2003/g/data-view&gt;</td></tr>
-<tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
-<tr><td><b>OntoSensor</b></td><td>&lt;http://mmisw.org/ont/univmemphis/sensor&gt;</td></tr>
-<tr><td><b>fn</b></td><td>&lt;http://www.w3.org/2005/xpath-functions&gt;</td></tr>
-<tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
-<tr><td><b>skos</b></td><td>&lt;http://www.w3.org/2004/02/skos/core&gt;</td></tr>
-<tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
-<tr><td><b>fibo-fbc-fe-fse</b></td><td>&lt;https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities&gt;</td></tr>
-<tr><td><b>prov-o</b></td><td>&lt; https://www.w3.org/TR/prov-o&gt;</td></tr>
-<tr><td><b>security</b></td><td>&lt;http://ontologies.atb-bremen.de/security&gt;</td></tr>
-<tr><td><b>dct</b></td><td>&lt;http://purl.org/dc/terms&gt;</td></tr>
-<tr><td><b>xml</b></td><td>&lt;http://www.w3.org/XML/1998/namespace&gt;</td></tr>
-<tr><td><b>dpv-gdpr</b></td><td>&lt;http://www.w3.org/ns/dpv-gdpr&gt;</td></tr>
-<tr><td><b>fibo-fnd-agr-ctr</b></td><td>&lt;https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts&gt;</td></tr>
-<tr><td><b>dcat</b></td><td>&lt;http://www.w3.org/ns/dcat&gt;</td></tr>
-<tr><td><b>gconsent</b></td><td>&lt;https://w3id.org/GConsent&gt;</td></tr>
-<tr><td><b>prov</b></td><td>&lt;http://www.w3.org/ns/prov&gt;</td></tr>
-<tr><td><b>foaf</b></td><td>&lt;http://xmlns.com/foaf/0.1&gt;</td></tr>
-<tr><td><b>rdf4j</b></td><td>&lt;http://rdf4j.org/schema/rdf4j&gt;</td></tr>
-<tr><td><b>fibo-der-dc-dma</b></td><td>&lt;https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesMasterAgreements&gt;</td></tr>
-<tr><td><b>wgs</b></td><td>&lt;http://www.w3.org/2003/01/geo/wgs84_pos&gt;</td></tr>
-<tr><td><b>fibo-fnd-trext-reatr</b></td><td>&lt;https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions&gt;</td></tr>
-<tr><td><b>gn</b></td><td>&lt;http://www.geonames.org/ontology&gt;</td></tr>
-<tr><td><b>fibo-der-drc-ma</b></td><td>&lt;fibo-der-drc-ma:&gt;</td></tr>
-<tr><td><b>dpv</b></td><td>&lt;http://www.w3.org/ns/dpv&gt;</td></tr>
-<tr><td><b>consent</b></td><td>&lt;http://purl.org/adaptcentre/openscience/ontologies/consent&gt;</td></tr>
-<tr><td><b>fibo-loan-loant-mloan</b></td><td>&lt;https://spec.edmcouncil.org/fibo/ontology/LOAN/LoanTypes/MortgageLoans&gt;</td></tr>
-<tr><td><b>LCC</b></td><td>&lt;https://www.omg.org/spec/LCC/Countries/CountryRepresentation&gt;</td></tr>
-<tr><td><b>campaneo</b></td><td>&lt;http://www.semanticweb.org/CampaNeo/ontologies/2020/4&gt;</td></tr>
-<tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
-<tr><td><b>fibo-fnd-plc-loc</b></td><td>&lt;https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations&gt;</td></tr>
-<tr><td><b>sesame</b></td><td>&lt;http://www.openrdf.org/schema/sesame&gt;</td></tr>
-<tr><td><b>time</b></td><td>&lt;http://www.w3.org/2006/time&gt;</td></tr>
-<tr><td><b>odrl</b></td><td>&lt;http://www.w3.org/ns/odrl/2&gt;</td></tr>
-<tr><td><b>fibo-fbc-dae-dbt</b></td><td>&lt;https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt&gt;</td></tr>
-<tr><td><b>dc</b></td><td>&lt;http://purl.org/dc/elements/1.1&gt;</td></tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-  
+<div id="toc"></div>
 
 <!--DESCRIPTION SECTION-->
     <div id="description"><h2 id="desc" class="list">smashHit Core Ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
-
+  The smashHit Core ontology extends the scope of existing ontologies by providing an integrated semantic model for multiple domains such as consent, contracts, licenses and sensor data. This work is part of the smashhit project, which is developing a framework for trusted and secure sharing of data streams from both personal and industrial platforms needed to build sectorial and cross-sectorial services. The ontology models multiple GDPR legal bases such as consent and contracts, but is not limited to them. Concepts such as metadata, sensor data, data processing, involved entities, which can be useful for compliance checking, are modelled as well.</dc:description>
 </div>
-   
+
 
 <!--CROSSREF SECTION-->
    <div id="crossref"><h2 id="crossreference" class="list">Cross reference for smashHit Core Ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
@@ -10523,6 +10463,570 @@ Activities of water supply are also grouped in this section, since they are ofte
             <dt>is also defined as</dt>
             <dd>
                <a href="#http://purl.org/dc/terms/type">object property</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     id="annotationproperties">
+   <h3 id="annotationproperties" class="list">Annotation Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://purl.org/dc/elements/1.1/abstract" title="http://purl.org/dc/elements/1.1/abstract">
+            <span>abstract</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/odrl/2/assignee" title="http://www.w3.org/ns/odrl/2/assignee">assignee</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/odrl/2/assigner" title="http://www.w3.org/ns/odrl/2/assigner">assigner</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#backwardCompatibleWith"
+            title="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+            <span>backward compatible with</span>
+         </a>
+      </li>
+      <li>
+         <a href="#contractType"
+            title="http://ontologies.atb-bremen.de/smashHitCore#contractType">
+            <span>contract type</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/elements/1.1/contributor" title="http://purl.org/dc/elements/1.1/contributor">
+            <span>contributor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/elements/1.1/creator" title="http://purl.org/dc/elements/1.1/creator">
+            <span>creator</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#deprecated" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/elements/1.1/description" title="http://purl.org/dc/elements/1.1/description">
+            <span>description</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">description</a>
+      </li>
+      <li>
+         <a href="#forPurpose"
+            title="http://ontologies.atb-bremen.de/smashHitCore#forPurpose">
+            <span>for purpose</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDate"
+            title="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDate">
+            <span>has execution date</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasRole"
+            title="http://ontologies.atb-bremen.de/smashHitCore#hasRole">
+            <span>has role</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/hasVersion" title="http://purl.org/dc/terms/hasVersion">hasVersion</a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/identifier" title="http://purl.org/dc/terms/identifier">
+            <span>identifier</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#imports" title="http://www.w3.org/2002/07/owl#imports">imports</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#incompatibleWith" title="http://www.w3.org/2002/07/owl#incompatibleWith">incompatibleWith</a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/license" title="http://purl.org/dc/terms/license">
+            <span>license</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2003/g/data-view#namespaceTransformation"
+            title="http://www.w3.org/2003/g/data-view#namespaceTransformation">
+            <span>namespace transformation</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#priorVersion" title="http://www.w3.org/2002/07/owl#priorVersion">priorVersion</a>
+      </li>
+      <li>
+         <a href="#RevokedAtTime"
+            title="http://ontologies.atb-bremen.de/smashHitCore#RevokedAtTime">
+            <span>revoked at time</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/elements/1.1/title" title="http://purl.org/dc/elements/1.1/title">
+            <span>title</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/1999/02/22-rdf-syntax-ns#value" title="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">value</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#versionInfo" title="http://www.w3.org/2002/07/owl#versionInfo">
+            <span>versionInfo</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#versionIRI" title="http://www.w3.org/2002/07/owl#versionIRI">versionIRI</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://purl.org/dc/elements/1.1/abstract">
+      <h3>abstract<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/elements/1.1/abstract</p>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/odrl/2/assignee">
+      <h3>assignee<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/odrl/2/assignee</p>
+      <div class="comment">
+         <span class="markdown">Relates to agents who are the recipient of the rules.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/odrl/2/Policy" title="http://www.w3.org/ns/odrl/2/Policy">Policy</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#Agent" title="http://www.w3.org/ns/prov#Agent">Agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/odrl/2/assigner">
+      <h3>assigner<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/odrl/2/assigner</p>
+      <div class="comment">
+         <span class="markdown">Relates to agents to assign some rule to others.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="_:genid-nodeid-node1fjjh9j8nx4"
+                  target="_blank"
+                  title="_:genid-nodeid-node1fjjh9j8nx4">_:genid-nodeid-node1fjjh9j8nx4</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#Agent" title="http://www.w3.org/ns/prov#Agent">Agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+      <h3>backward compatible with<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#backwardCompatibleWith</p>
+      <div class="comment">
+         <span class="markdown">The annotation property that indicates that a given ontology is backward compatible with another ontology.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2002/07/owl#">http://www.w3.org/2002/07/owl#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="contractType">
+      <h3>contract type<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontologies.atb-bremen.de/smashHitCore#contractType</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/elements/1.1/contributor">
+      <h3>contributor<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/elements/1.1/contributor</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/elements/1.1/creator">
+      <h3>creator<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/elements/1.1/creator</p>
+   </div>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#deprecated">
+      <h3>deprecated<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#deprecated</p>
+      <div class="comment">
+         <span class="markdown">The annotation property that indicates that a given entity has been deprecated.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2002/07/owl#">http://www.w3.org/2002/07/owl#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/2000/01/rdf-schema#Resource"
+                  target="_blank"
+                  title="http://www.w3.org/2000/01/rdf-schema#Resource">resource</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2000/01/rdf-schema#Resource"
+                  target="_blank"
+                  title="http://www.w3.org/2000/01/rdf-schema#Resource">resource</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://purl.org/dc/elements/1.1/description">
+      <h3>description<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/elements/1.1/description</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/description">
+      <h3>description<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+      <div class="comment">
+         <span class="markdown">
+Description may include but is not limited to an abstract, a table of contents, a graphical representation, or a free text account of the resource.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#License"
+                  title="http://ontologies.atb-bremen.de/smashHitCore#License">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="forPurpose">
+      <h3>for purpose<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontologies.atb-bremen.de/smashHitCore#forPurpose</p>
+   </div>
+   <div class="entity" id="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDate">
+      <h3>has execution date<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDate</p>
+   </div>
+   <div class="entity" id="hasRole">
+      <h3>has role<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontologies.atb-bremen.de/smashHitCore#hasRole</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/hasVersion">
+      <h3>hasVersion<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/hasVersion</p>
+      <div class="comment">
+         <span class="markdown">A related resource that is a version, edition, or adaptation of the described resource.
+Can be the version of consent and/or contract.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#License"
+                  title="http://ontologies.atb-bremen.de/smashHitCore#License">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"
+                  title="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract">Contract</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#https://w3id.org/GConsent#Consent" title="https://w3id.org/GConsent#Consent">Consent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/identifier">
+      <h3>identifier<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/identifier</p>
+   </div>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#imports">
+      <h3>imports<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#imports</p>
+      <div class="comment">
+         <span class="markdown">The property that is used for importing other ontologies into a given ontology.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2002/07/owl#">http://www.w3.org/2002/07/owl#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#incompatibleWith">
+      <h3>incompatibleWith<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#incompatibleWith</p>
+      <div class="comment">
+         <span class="markdown">The annotation property that indicates that a given ontology is incompatible with another ontology.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2002/07/owl#">http://www.w3.org/2002/07/owl#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/license">
+      <h3>license<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/license</p>
+   </div>
+   <div class="entity" id="http://www.w3.org/2003/g/data-view#namespaceTransformation">
+      <h3>namespace transformation<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2003/g/data-view#namespaceTransformation</p>
+   </div>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#priorVersion">
+      <h3>priorVersion<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#priorVersion</p>
+      <div class="comment">
+         <span class="markdown">The annotation property that indicates the predecessor ontology of a given ontology.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2002/07/owl#">http://www.w3.org/2002/07/owl#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="RevokedAtTime">
+      <h3>revoked at time<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://ontologies.atb-bremen.de/smashHitCore#RevokedAtTime</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/elements/1.1/title">
+      <h3>title<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/elements/1.1/title</p>
+   </div>
+   <div class="entity" id="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+      <h3>value<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/1999/02/22-rdf-syntax-ns#value</p>
+      <div class="comment">
+         <span class="markdown">Idiomatic property used for structured values.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#versionInfo">
+      <h3>versionInfo<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#versionInfo</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/2000/01/rdf-schema#Resource"
+                  target="_blank"
+                  title="http://www.w3.org/2000/01/rdf-schema#Resource">resource</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2000/01/rdf-schema#Resource"
+                  target="_blank"
+                  title="http://www.w3.org/2000/01/rdf-schema#Resource">resource</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#versionIRI">
+      <h3>versionIRI<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#versionIRI</p>
+      <div class="comment">
+         <span class="markdown">The property that identifies the version IRI of an ontology.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/2002/07/owl#">http://www.w3.org/2002/07/owl#</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Ontology"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Ontology">ontology</a>
             </dd>
          </dl>
       </div>
